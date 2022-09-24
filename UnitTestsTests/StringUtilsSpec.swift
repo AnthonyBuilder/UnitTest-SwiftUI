@@ -8,8 +8,6 @@
 import XCTest
 @testable import UnitTests
 
-
-
 class StringUtilsSpec: XCTestCase {
 
     func testIsValidEmail() {

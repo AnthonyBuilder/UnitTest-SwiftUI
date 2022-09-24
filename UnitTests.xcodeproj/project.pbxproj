@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860EAFBD28DF339600CA56B7 /* AccountBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EAFBC28DF339600CA56B7 /* AccountBalance.swift */; };
+		860EAFBF28DF349C00CA56B7 /* AccountBalanceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EAFBE28DF349C00CA56B7 /* AccountBalanceSpec.swift */; };
 		865CD22928D8A1DA0028394D /* StringUtilsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD22228D8A1CA0028394D /* StringUtilsSpec.swift */; };
 		865CD22C28D8A20C0028394D /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD22B28D8A20C0028394D /* StringUtils.swift */; };
 		86DE7A1A28D767B600ABCBA2 /* UnitTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE7A1928D767B600ABCBA2 /* UnitTestsApp.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		860EAFBC28DF339600CA56B7 /* AccountBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalance.swift; sourceTree = "<group>"; };
+		860EAFBE28DF349C00CA56B7 /* AccountBalanceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceSpec.swift; sourceTree = "<group>"; };
 		865CD22028D8A1CA0028394D /* StringUtilsSpec.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringUtilsSpec.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		865CD22228D8A1CA0028394D /* StringUtilsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsSpec.swift; sourceTree = "<group>"; };
 		865CD22B28D8A20C0028394D /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 				86DE7A1B28D767B600ABCBA2 /* ContentView.swift */,
 				86DE7A1D28D767BD00ABCBA2 /* Assets.xcassets */,
 				86DE7A1F28D767BD00ABCBA2 /* Preview Content */,
+				860EAFBC28DF339600CA56B7 /* AccountBalance.swift */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			children = (
 				86DE7A2A28D767BD00ABCBA2 /* UnitTestsTests.swift */,
 				865CD22228D8A1CA0028394D /* StringUtilsSpec.swift */,
+				860EAFBE28DF349C00CA56B7 /* AccountBalanceSpec.swift */,
 			);
 			path = UnitTestsTests;
 			sourceTree = "<group>";
@@ -326,6 +332,7 @@
 			files = (
 				865CD22C28D8A20C0028394D /* StringUtils.swift in Sources */,
 				86DE7A1C28D767B600ABCBA2 /* ContentView.swift in Sources */,
+				860EAFBD28DF339600CA56B7 /* AccountBalance.swift in Sources */,
 				86DE7A1A28D767B600ABCBA2 /* UnitTestsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +343,7 @@
 			files = (
 				86DE7A2B28D767BD00ABCBA2 /* UnitTestsTests.swift in Sources */,
 				865CD22928D8A1DA0028394D /* StringUtilsSpec.swift in Sources */,
+				860EAFBF28DF349C00CA56B7 /* AccountBalanceSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
